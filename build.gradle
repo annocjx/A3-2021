@@ -3,7 +3,7 @@ buildscript {
     repositories {
         maven {
             //url 'http://localhost:8081/nexus/content/repositories/test/'
-            url 'http://192.168.3.29:8081/repository/test/'
+           // url 'http://192.168.3.29:8081/repository/test/'
         }
         google()
         jcenter()
@@ -11,7 +11,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.0'
-        classpath 'com.turam:jiagu:1.1.8'
+       // classpath 'com.turam:jiagu:1.1.8'
         // GitHub Maven 插件
         classpath "com.github.dcendents:android-maven-gradle-plugin:2.1"
     }
@@ -21,7 +21,7 @@ allprojects {
     repositories {
         maven {
             //url 'http://localhost:8081/nexus/content/repositories/test/'
-            url 'http://192.168.3.29:8081/repository/test/'
+           // url 'http://192.168.3.29:8081/repository/test/'
         }
         google()
         jcenter()
