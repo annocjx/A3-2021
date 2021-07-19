@@ -35,7 +35,7 @@ allprojects {
     }
     gradle.projectsEvaluated {
         tasks.withType(JavaCompile) {
-            options.compilerArgs.add('-Xbootclasspath/p:soundcard/sdk/android26.jar')
+        //    options.compilerArgs.add('-Xbootclasspath/p:soundcard/sdk/android26.jar')
         }
     }
 
