@@ -1,0 +1,16 @@
+# Project exclude paths
+/.gradle/
+/facelibrary/build/
+/facelibrary/build/intermediates/javac/debug/classes/
+/gpio/.cxx/
+/gpssite/.cxx/
+/gpssite/build/
+/gpssite/build/intermediates/javac/debug/classes/
+/jrtp/.cxx/
+/persent/build/
+/persent/build/intermediates/javac/debug/classes/
+/picker/build/
+/picker/build/intermediates/javac/debug/classes/
+/serialport0/.cxx/
+/soundcard/build/
+/soundcard/build/intermediates/javac/debug/classes/
